@@ -9,14 +9,9 @@ public:
 	~DND_Character();
 	virtual std::string getName();
 	virtual std::string getRace();
-	virtual int getStrength();
-	virtual int getDexterity();
-	virtual int getConstitution();
-	virtual int getIntelligence();
-	virtual int getWisdom();
-	virtual int getCharisma();
+	virtual int getStat(DND_STAT stat);
 protected:
 	std::string character_name;
 	DND_RACE character_race;
-	std::map<DND_STATS, int> character_stats;
+	std::map<DND_STAT, int> character_stats;
 };

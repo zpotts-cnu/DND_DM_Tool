@@ -20,7 +20,7 @@ int main() {
 	//std::cout << character << std::endl;
 	//std::cout << decltype(filename) << std::endl;
 	for (int i = 0; i < NUM_STATS; i++) {
-		DND_STATS stat = (DND_STATS)i;
+		DND_STAT stat = (DND_STAT)i;
 		switch (stat)
 		{
 		case STRENGTH:
