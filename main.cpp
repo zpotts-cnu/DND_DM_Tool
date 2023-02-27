@@ -17,6 +17,7 @@ int main() {
 
 	for (std::vector<std::string>::iterator it = skills.begin(); it != skills.end(); ++it) {
 		std::cout << *it << std::endl;
+	}
 
 	return 0;
 }
