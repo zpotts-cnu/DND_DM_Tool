@@ -9,10 +9,14 @@ public:
 	~DND_Character();
 	std::string getName();
 	std::string getRace();
-	std::string getClass();
-private:
-	std::string pc_name;
-	DND_RACE pc_race;
-	DND_CLASS pc_class;
-	std::map<DND_STATS, int> pc_stats[NUM_STATS];
+	int getStrength();
+	int getDexterity();
+	int getConstitution();
+	int getIntelligence();
+	int getWisdom();
+	int getCharisma();
+protected:
+	std::string character_name;
+	DND_RACE character_race;
+	std::map<DND_STATS, int> character_stats;
 };
