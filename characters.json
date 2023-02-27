@@ -1,0 +1,9 @@
+{
+  "Characters": {
+    "Name": "Aldan Windspear",
+    "Race": "Human",
+    "Class": ["Ranger", 3],
+    "Level": 3,
+    "Alignment": [ "Lawful", "Neutral" ]
+  }
+}
