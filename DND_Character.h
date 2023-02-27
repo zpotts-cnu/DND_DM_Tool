@@ -7,14 +7,14 @@ class DND_Character {
 public:
 	DND_Character();
 	~DND_Character();
-	std::string getName();
-	std::string getRace();
-	int getStrength();
-	int getDexterity();
-	int getConstitution();
-	int getIntelligence();
-	int getWisdom();
-	int getCharisma();
+	virtual std::string getName();
+	virtual std::string getRace();
+	virtual int getStrength();
+	virtual int getDexterity();
+	virtual int getConstitution();
+	virtual int getIntelligence();
+	virtual int getWisdom();
+	virtual int getCharisma();
 protected:
 	std::string character_name;
 	DND_RACE character_race;
