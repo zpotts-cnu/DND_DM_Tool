@@ -3,6 +3,7 @@
 #include <fstream>
 #include <string>
 #include "json/single_include/nlohmann/json.hpp"
+#include "constants.h"
 
 using json = nlohmann::json;
 

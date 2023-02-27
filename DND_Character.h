@@ -1,11 +1,13 @@
-#include <string>
-#include "constants.h"
-#include <map>
-
 #pragma once
+
+#include <string>
+#include <map>
+#include "constants.h"
+#include "utilities.h"
+
 class DND_Character {
 public:
-	DND_Character();
+	DND_Character(json::object_t character_data);
 	~DND_Character();
 	virtual std::string getName();
 	virtual std::string getRace();
