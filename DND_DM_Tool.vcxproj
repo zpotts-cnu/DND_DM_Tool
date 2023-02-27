@@ -131,6 +131,7 @@
     <ClCompile Include="DND_NPC.cpp" />
     <ClCompile Include="DND_PC.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="characters.json" />
@@ -141,6 +142,7 @@
     <ClInclude Include="DND_Character.h" />
     <ClInclude Include="DND_NPC.h" />
     <ClInclude Include="DND_PC.h" />
+    <ClInclude Include="utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

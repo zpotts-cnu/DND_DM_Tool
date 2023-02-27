@@ -1,55 +1,22 @@
 #include <iostream>
-#include <fstream>
 #include <string>
-#include "json/single_include/nlohmann/json.hpp"
+#include <vector>
 #include "constants.h"
-
-using json = nlohmann::json;
-
-json open_json_file(std::string filename) {  // Moving to utilities.cpp
-	//const char* file = filename.c_str();
-	std::ifstream f(filename.c_str());
-	json data = json::parse(f);
-	return data;
-}
+#include "utilities.h"
 
 int main() {
-	/*std::string filename = "characters.json";
+	std::string filename = "characters.json";
 	json file_data = open_json_file(filename);
-	decltype(file_data["Characters"]) characters = file_data["Characters"];*/
+	auto characters = file_data["PlayerCharacters"];
 
-	//std::vector<std::string> skills;
+	std::vector<std::string> skills;
 
-	//for (auto &character : characters) {
-	//	//std::cout << character.at("Armor Class") << std::endl;
-	//	character.at("Proficient Skills").get_to(skills);
-	//}
+	for (auto &character : characters) {
+		character.at("Proficient Skills").get_to(skills);
+	}
 
-	/*for (int i = 0; i < NUM_STATS; i++) {
-		DND_STAT stat = (DND_STAT)i;
-		switch (stat)
-		{
-		case STRENGTH:
-			std::cout << "Strength" << std::endl;
-			break;
-		case DEXTERITY:
-			std::cout << "Dexterity" << std::endl;
-			break;
-		case CONSTITUTION:
-			std::cout << "Constitution" << std::endl;
-			break;
-		case INTELLIGENCE:
-			std::cout << "Intelligence" << std::endl;
-			break;
-		case WISDOM:
-			std::cout << "Wisdom" << std::endl;
-			break;
-		case CHARISMA:
-			std::cout << "Charisma" << std::endl;
-			break;
-		default:
-			break;
-		}
-	}*/
+	for (std::vector<std::string>::iterator it = skills.begin(); it != skills.end(); ++it) {
+		std::cout << *it << std::endl;
+
 	return 0;
 }
