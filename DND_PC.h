@@ -9,8 +9,6 @@ public:
 	std::string getRace();
 	std::string getClass();
 private:
-	std::string pc_name;
-	DND_RACE pc_race;
 	DND_CLASS pc_class;
 };
 
