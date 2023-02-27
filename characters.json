@@ -1,23 +1,27 @@
 {
-  "Name": "Aldan Windspear",
-  "Race": "Human",
-  "Class": [ "Ranger", 3 ],
-  "Alignment": [ "Lawful", "Neutral" ],
-  "Stats": {
-    "Strength": 16,
-    "Dexterity": 17,
-    "Constitution": 12,
-    "Intelligence": 12,
-    "Wisdom": 16,
-    "Charisma": 11
-  },
-  "Proficiency Bonus": 2,
-  "Hit Dice": [10, 3],
-  "Health Points": 22,
-  "Armor Class": 17,
-  "Speed": 30,
-  "Proficient Skills": [ "Intimidation", "Investigation", "Nature", "Survival" ],
-  "Equipment": {
-    "Currency": [8, 29, 0, 180, 0]
-  }
+  "Characters": [
+    {
+      "Name": "Aldan Windspear",
+      "Race": "Human",
+      "Class": [ "Ranger", 3 ],
+      "Alignment": [ "Lawful", "Neutral" ],
+      "Stats": {
+        "Strength": 16,
+        "Dexterity": 17,
+        "Constitution": 12,
+        "Intelligence": 12,
+        "Wisdom": 16,
+        "Charisma": 11
+      },
+      "Proficiency Bonus": 2,
+      "Hit Dice": [ 10, 3 ],
+      "Health Points": 22,
+      "Armor Class": 17,
+      "Speed": 30,
+      "Proficient Skills": [ "Intimidation", "Investigation", "Nature", "Survival" ],
+      "Equipment": {
+        "Currency": [ 8, 29, 0, 180, 0 ]
+      }
+    }
+  ]
 }
