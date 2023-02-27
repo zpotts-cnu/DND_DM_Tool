@@ -15,6 +15,7 @@
       },
       "Proficiency Bonus": 2,
       "Hit Dice": [ 10, 3 ],
+      "Max Health Points": 22,
       "Health Points": 22,
       "Armor Class": 17,
       "Speed": 30,
