@@ -14,12 +14,18 @@ json open_json_file(std::string filename) {
 }
 
 int main() {
-	//std::string filename = "characters.json";
-	//json file_data = open_json_file(filename);
-	//decltype(file_data["Characters"]) character = file_data["Characters"];
-	//std::cout << character << std::endl;
-	//std::cout << decltype(filename) << std::endl;
-	for (int i = 0; i < NUM_STATS; i++) {
+	/*std::string filename = "characters.json";
+	json file_data = open_json_file(filename);
+	decltype(file_data["Characters"]) characters = file_data["Characters"];*/
+
+	//std::vector<std::string> skills;
+
+	//for (auto &character : characters) {
+	//	//std::cout << character.at("Armor Class") << std::endl;
+	//	character.at("Proficient Skills").get_to(skills);
+	//}
+
+	/*for (int i = 0; i < NUM_STATS; i++) {
 		DND_STAT stat = (DND_STAT)i;
 		switch (stat)
 		{
@@ -44,6 +50,6 @@ int main() {
 		default:
 			break;
 		}
-	}
+	}*/
 	return 0;
 }

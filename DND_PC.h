@@ -20,5 +20,6 @@ private:
 	DND_CLASS pc_class;
 	int pc_level;
 	int pc_proficiency_bonus;
+	DND_SKILL proficient_skills[NUM_SKILLS];
 };
 

@@ -24,9 +24,18 @@
     <ClCompile Include="DND_Character.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DND_PC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DND_NPC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="characters.json">
+      <Filter>Data Files</Filter>
+    </None>
+    <None Include="ref_tables.json">
       <Filter>Data Files</Filter>
     </None>
   </ItemGroup>
@@ -35,6 +44,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DND_PC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DND_NPC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

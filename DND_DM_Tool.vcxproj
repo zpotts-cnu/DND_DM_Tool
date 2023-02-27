@@ -128,14 +128,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DND_Character.cpp" />
+    <ClCompile Include="DND_NPC.cpp" />
+    <ClCompile Include="DND_PC.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="characters.json" />
+    <None Include="ref_tables.json" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="constants.h" />
     <ClInclude Include="DND_Character.h" />
+    <ClInclude Include="DND_NPC.h" />
+    <ClInclude Include="DND_PC.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
